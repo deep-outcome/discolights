@@ -1,0 +1,23 @@
+[package]
+name = "discolights"
+authors = [ "software9119.technology" ]
+version = "1.0.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+microbit-v2 = "0.12.0"
+cortex-m = "0.7.3"
+cortex-m-rt = "0.7.0"
+panic-halt = "0.2.0"
+
+[profile.release]
+opt-level=0
+lto="off"
+panic="abort"
+codegen-units=1
+strip="symbols"
+
+[features]
+panic_halt = []
+panic_abort = []

@@ -9,5 +9,5 @@ Long missing traffic light application ⸺ discotheque ambient lighting.
 - micro:bit v. 2.21 ([specification](https://tech.microbit.org/hardware/))
 
 ### Presentation
-![show](https://github.com/bravequickcleverfibreyarn/discolights/blob/main/pre/pre.gif)
+![show](https://github.com/deep-outcome/discolights/blob/main/pre/pre.gif)
 
